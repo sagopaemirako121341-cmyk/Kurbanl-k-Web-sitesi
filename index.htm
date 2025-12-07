@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Yasin Karakoç — Kurbancılık</title>
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <h1>Yasin Karakoç</h1>
+        <p class="tag">Paşapınar · Menteşe · Muğla</p>
+      </div>
+
+      <nav class="nav">
+        <a href="#hizmetler">Hizmetler</a>
+        <a href="#hakkimda">Hakkımda</a>
+        <a href="#iletisim" class="cta">İletişime Geç</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-inner">
+        <div class="hero-text">
+          <h2>Kurbancılık &amp; Keçi Satışı</h2>
+          <p>Adak kurban kesimi, sağlıklı kurbanlık temini ve güvenilir satış — İslami usullere uygun, hijyenik ve güvenilir hizmet.</p>
+          <a href="#iletisim" class="btn">Hemen İletişime Geç</a>
+        </div>
+
+        <div class="hero-image" aria-hidden="true">
+         
+          <div class="koyun.jpg">Resim Alanı</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="hizmetler" class="services">
+      <div class="container">
+        <h3>Hizmetlerimiz</h3>
+        <div class="cards">
+          <article class="card">
+            <h4>Adak Kurban Kesimi</h4>
+            <p>İslami usullere uygun, temiz ve saygılı kesim hizmeti. Ev veya belirlenen alanda.</p>
+          </article>
+
+          <article class="card">
+            <h4>Kurbanlık Temini</h4>
+            <p>Sağlıklı, veteriner kontrolünden geçmiş kurbanlıklar. Tercih ettiğiniz yaş/ırk seçenekleri.</p>
+          </article>
+
+          <article class="card">
+            <h4>Keçi Satışı</h4>
+            <p>Bakımlı ve besili keçiler — toplu veya teker teker satış imkanı.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="hakkimda" class="about">
+      <div class="container">
+        <h3>Hakkımda</h3>
+        <p>Ben <strong>Yasin Karakoç</strong>, 1987 Muğla Menteşe / Paşapınar doğumluyum. Tarım ve Orman Bakanlığı'nda şoför olarak görev yapıyorum ve uzun yıllardır kurbancılık sektöründe hizmet veriyorum. Müşteri memnuniyeti ve hijyen önceliğimizdir.</p>
+      </div>
+    </section>
+
+    <section id="iletisim" class="contact">
+      <div class="container">
+        <h3>İletişim</h3>
+        <p>Bilgi ve rezervasyon için lütfen aşağıdaki yollardan ulaşın.</p>
+
+        <div class="contact-grid">
+          <div class="contact-card">
+            <h4>Telefon</h4>
+            <p><a href="tel:+905xxxxxxxxx">+90 5xx xxx xx xx</a></p>
+          </div>
+
+          <div class="contact-card">
+            <h4>WhatsApp</h4>
+            <p><a href="https://wa.me/90xxxxxxxxxx" target="_blank" rel="noopener">Mesaj Gönder</a></p>
+          </div>
+
+          <div class="contact-card">
+            <h4>Adres</h4>
+            <p>Paşapınar, Menteşe, Muğla</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Yasin Karakoç — Kurbancılık</p>
+    </div>
+  </footer>
+
+  <script>
+    // Yıl otomatik güncelleme
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
